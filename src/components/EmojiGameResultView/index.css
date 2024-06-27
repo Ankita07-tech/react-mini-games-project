@@ -1,0 +1,123 @@
+.result-view-bg {
+  /* height: 1024px; */
+  /* width: 1440px; */
+  background: linear-gradient(179.51deg, #9796f0 0.41%, #fbc7d4 128.48%);
+}
+
+.result-view-header {
+  height: 100px;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: #9796f0; */
+  /* margin-left: 165px; */
+  background: #ffffff33;
+}
+
+.logo-part {
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.logo-img {
+  height: 48px;
+  width: 48px;
+}
+
+.emoji-game-heading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #334155;
+}
+
+.result-view-container {
+  
+  border-radius: 24px;
+  padding: 25px;
+  background: #ffffff33;
+  border: 3.01px solid #ffffff30;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-part {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.result-emojis-image {
+  width: 373.44px;
+  height: 480.27px;
+}
+
+.play-again-button {
+  width: 145px;
+  height: 40px;
+  background-color: goldenrod;
+  color: black;
+  outline: none;
+  border-style: none;
+  border-radius: 20px;
+}
+
+.game-status {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #334155;
+}
+
+.best-score {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #334155;
+}
+
+.score {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #523fff;
+}
+
+@media (max-width: 768px) {
+  .result-view-container {
+    min-width: 264px;
+    height: 430px;
+    top: 105px;
+    left: 48px;
+    gap: 0px;
+    opacity: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .result-emojis-image {
+    width: 140px;
+    height: 182px;
+    top: 129px;
+    left: 110px;
+    gap: 0px;
+    opacity: 0px;
+    order: -1;
+  }
+}
